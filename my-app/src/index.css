@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Popping", sans-serif;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+.hero {
+  padding: 20px; 
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--photo {
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero--header {
+  font-size: 2.3rem;
+  margin-bottom: 16px;
+  letter-spacing: 2px;
+  font-family: "Popping";
+  font-weight: 600;
+}
+.hero--text{
+  margin-top: 0;
+  width: 340px;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  overflow-x: auto;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  position: relative;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  font-size: 12px;
+}
+
+.card--star {
+  height: 14px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
