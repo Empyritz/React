@@ -9,12 +9,16 @@ export default function Meme () {
         bottomText: "",
         randomImage: ""
     })
-    const [allMemes, setAllMemes] = React.useState(memesData.data.memes)
+    const [allMemes, setAllMemes] = React.useState([])
 
-    /* React.useEffect(()=> {
+     React.useEffect(()=> {
         axios.get("https://api.imgflip.com/get_memes")
             .then(res => setAllMemes(res.data.data.memes))
-    }, []) */
+    }, []) 
+    // React.useEffect(async ()=> {
+    //     const res = await axios.get("https://api.imgflip.com/get_memes")
+    //         setAllMemes(res.data.data.memes)
+    // }, []) 
 
     
 
