@@ -1,5 +1,5 @@
 
-let info = [
+let data = [
     {
         id: 1,
         title: "Life Lessons with Katie Zaferes",
@@ -41,4 +41,4 @@ let info = [
     }
 ]
 
-export default info 
+export default data 
